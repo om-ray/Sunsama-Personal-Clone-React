@@ -10,8 +10,8 @@ function Nav() {
 
   return (
     <nav className="Nav_bar">
-      <Link style={linkStyle} to="/">
-        <h1 className="Logo">Sunsama Personal Clone</h1>
+      <Link id="logo" style={linkStyle} to="/">
+        <h1 className="Logo">Luminity</h1>
       </Link>
       <ul className="Nav_links">
         <Link style={linkStyle} to="/about">

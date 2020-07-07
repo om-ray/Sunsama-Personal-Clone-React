@@ -1,5 +1,6 @@
 import React from "react";
 import "../src/App.css";
+import Landing from "./Landing";
 import Nav from "./Nav";
 import About from "./About";
 import Login from "./Login";
@@ -11,7 +12,7 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact component={Landing} />
           <Route path="/about" component={About} />
           <Route path="/login" component={Login} />
         </Switch>
@@ -19,13 +20,5 @@ function App() {
     </Router>
   );
 }
-
-let Home = () => {
-  return (
-    <div>
-      <h1 className="Title">Home</h1>
-    </div>
-  );
-};
 
 export default App;
