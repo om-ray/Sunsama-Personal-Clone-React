@@ -1,0 +1,74 @@
+#sunsama {
+  text-decoration: overline underline;
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(0, 138, 192);
+  font-family: "Avenir";
+}
+
+.App {
+  font-family: "Avenir";
+  margin: 0px;
+  padding: 0px;
+}
+
+.Nav_bar {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  padding: 20px;
+  background: rgb(73, 79, 82);
+  color: white;
+  margin-bottom: 3vh;
+}
+
+.Logo {
+  font-family: "Avenir";
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.Title {
+  margin-top: 130px;
+  font-family: "Avenir";
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.Nav_links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.Text_container {
+  margin: auto;
+  padding: 0px 30px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 1px 2px rgb(255, 255, 255);
+}
+
+.Basic_text {
+  padding: 0px 50px;
+  margin: 40px 2vh;
+  font-size: 15px;
+  font-family: "playfair display";
+}
+
+.Full_page_container {
+  background-color: rgb(0, 38, 56);
+  width: 100%;
+  height: 100vh;
+}
