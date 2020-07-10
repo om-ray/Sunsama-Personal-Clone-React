@@ -1,5 +1,6 @@
 * {
   font-family: "avenir";
+  overflow-x: hidden;
 }
 
 *:focus {
