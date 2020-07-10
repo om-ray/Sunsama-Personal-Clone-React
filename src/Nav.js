@@ -15,7 +15,7 @@ function Nav() {
       </Link>
       <ul className="Nav_links">
         <Link style={linkStyle} to="/about">
-          <li>About</li>
+          <li>Why Luminity?</li>
         </Link>
         <Link style={linkStyle} to="/login">
           <li>Login</li>

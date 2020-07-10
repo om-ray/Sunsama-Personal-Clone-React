@@ -1,13 +1,42 @@
+* {
+  font-family: "avenir";
+}
+
+*:focus {
+  outline: none;
+}
+
 #sunsama {
-  text-decoration: overline underline;
+  text-decoration: none;
   font-size: 50px;
   font-weight: 900;
-  color: rgb(0, 138, 192);
+  color: rgb(255, 255, 255);
   font-family: "Avenir";
 }
 
+hr {
+  border-color: #444a4c;
+  margin: 100px 100px 0px 100px;
+}
+
+#img_left {
+  margin-left: 100px;
+  margin-right: 90px;
+  margin-top: 100px;
+  float: left;
+  height: 483px;
+}
+
+#img_right {
+  margin-left: 45px;
+  margin-right: 70px;
+  margin-top: 100px;
+  float: right;
+  height: 483px;
+}
+
 .sunsama {
-  color: rgb(0, 138, 192);
+  color: rgb(255, 255, 255);
   font-family: "Avenir";
 }
 
@@ -25,31 +54,23 @@
   justify-content: space-around;
   align-items: center;
   position: fixed;
-  padding: 20px;
-  background: rgb(73, 79, 82);
-  color: white;
+  padding: 17px;
+  border-bottom: #2c2c2c solid 1px !important;
+  background: #141415;
+  color: #909090;
   margin-bottom: 3vh;
 }
 
 .Logo {
+  color: rgb(255, 255, 255);
   font-family: "Megrim";
-  background-image: linear-gradient(
-    90deg,
-    rgb(0, 147, 167) 0%,
-    rgb(0, 0, 0) 100%
-  );
-  background-clip: text;
   font-weight: 800;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
   font-size: 30px;
 }
 
 #logo {
   box-shadow: 0px 0px 50px black;
-  background-color: rgb(255, 255, 255);
+  background-color: #232526;
   border-radius: 100px;
   padding: 10px 30px;
 }
@@ -70,27 +91,88 @@
 }
 
 .Text_container {
+  color: white;
   margin: auto;
   padding: 0px 30px;
-  width: 70%;
+  width: 1300px;
   display: flex;
   flex-direction: column;
   align-content: center;
   text-align: center;
-  height: 100%;
-  background: rgb(255, 255, 255);
-  box-shadow: 0px 0px 1px 2px rgb(255, 255, 255);
+  padding-bottom: 200px;
+  height: fit-content;
+  background: #232526;
+}
+
+.Img_caption {
+  text-align: left;
+  font-size: 20px;
+  margin-right: 40px;
+  font-family: "avenir";
 }
 
 .Basic_text {
   padding: 0px 50px;
   margin: 40px 2vh;
-  font-size: 15px;
-  font-family: "playfair display";
+  font-size: 20px;
+  font-family: "avenir";
+}
+
+.Sign_up {
+  margin-top: 50px;
+  font-family: "Avenir";
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border-radius: 0px 4px 4px 0px;
+  background-color: rgb(82, 199, 137);
+  border: solid 1px rgb(82, 199, 137);
+  padding: 16px 24px;
+}
+
+#emailInput {
+  border-radius: 4px 0px 0px 4px;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(219, 219, 219);
+  text-align: left;
+  background-color: #222526;
+  border: 1px solid #4b5054;
 }
 
 .Full_page_container {
-  background-color: rgb(0, 38, 56);
+  background-color: #232526;
+  background-image: url(../src/Desktop_1.svg);
+  background-size: 500px;
   width: 100%;
-  height: 100vh;
+  padding-bottom: 10 0px;
+  height: 100%;
+}
+
+.caption_Left {
+  font-size: 52px;
+  margin-top: 100px;
+  text-align: left;
+}
+
+#Landing_image1 {
+  margin: auto;
+  text-align: left;
+  align-items: center;
+  align-content: center;
+  margin-top: 200px;
+}
+
+#Landing_image2 {
+  margin: auto;
+  text-align: left;
+  align-items: center;
+  align-content: center;
+  margin-top: 0px;
+}
+
+#caption2 {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
 }

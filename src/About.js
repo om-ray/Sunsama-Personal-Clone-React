@@ -7,10 +7,10 @@ function About() {
       <div className="Text_container">
         <h1 className="Title">About</h1>
         <p className="Basic_text">
-          This is a clone of Sunsama made solely for personal use and
+          Luminity is a clone of Sunsama made solely for personal use and
           educational purposes. It has no intention of competing with the actual
-          Sunsama. It is only for a single person, and not for a team like
-          Sunsama. If you want to use it for a team then please go to:
+          Sunsama. Luminity is only for a single person, and not for teams. If
+          you want a daily tracker for a team then please go to:
           <br />
           <br />
           <br />
